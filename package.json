@@ -1,7 +1,7 @@
 {
   "name": "request-animation-frame-debouncer",
   "version": "0.0.2",
-  "types": "./dist/CSV.d.ts",
+  "types": "./dist/raf-debounce.d.ts",
   "main": "./dist/raf-debounce.min.js",
   "scripts": {
     "build": "rm -rf ./dist && tsc -p ./ && babel ./dist/raf-debounce.js -o ./dist/raf-debounce.min.js",
